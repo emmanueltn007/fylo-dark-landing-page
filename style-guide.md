@@ -13,10 +13,10 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Navy 850 (intro and email sign up background): hsl(217, 28%, 15%)
-- Navy 900 (main background): hsl(218, 28%, 13%)
-- Navy 950 (footer background): hsl(216, 53%, 9%)
-- Navy 800 (testimonials background): hsl(219, 30%, 18%)
+- Navy 850 (intro and email sign up background): hsl(217,28%,15%)
+- Navy 900 (main background): hsl(218,28%,13%)
+- Navy 950 (footer background): hsl(216,53%,9%)
+- Navy 800 (testimonials background): hsl(219,30%,18%)
 
 ### Accent
 
