@@ -2,9 +2,9 @@ const HeaderSection = () => {
     return <section className="flex flex-col items-center justify-center gap-8">
         <img className="w-[600px] h-auto"
          src="../public/images/illustration-intro.png" alt="hero-image" />
-        <p className="text-white text-3xl">
+        <h2 className="text-white text-3xl">
             All your files in one secure location, accessible anywhere.
-        </p>
+        </h2>
         <p className="text-white">
             Fylo stores all your important files in one secure location.
             Access them wherever you need, share and collaborate with

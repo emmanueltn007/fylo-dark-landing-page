@@ -1,6 +1,7 @@
 import HeaderSection from "./components/HeaderSection";
 import HeroSection from "./components/HeroSection";
 import ServicesSection from "./components/ServicesSection";
+import HowFyloWorks from "./components/HowFyloWorks";
 
 const App = () => {
   return <div className="bg-[url('../public/images/bg-curvy-mobile.svg')]
@@ -10,6 +11,7 @@ const App = () => {
     <HeaderSection />
     <HeroSection />
     <ServicesSection />
+    <HowFyloWorks />
   </div>
 }
 
