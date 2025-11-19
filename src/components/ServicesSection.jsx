@@ -1,6 +1,6 @@
 const ServicesSection = () => {
     return <section className="text-white text-center flex flex-col gap-16
-                                md:grid md:grid-cols-2 md:gap-8">
+                                md:grid md:grid-cols-2 md:gap-8 pl-16 pr-16 relative">
         <div className="flex flex-col items-center">
             <img className="w-16" src="../public/images/icon-access-anywhere.svg" alt="access-anywhere-icon" />
             <h4 className="font-bold">

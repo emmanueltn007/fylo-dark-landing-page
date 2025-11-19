@@ -1,5 +1,5 @@
 const HeaderSection = () => {
-    return <section className="flex flex-col items-center justify-center gap-8">
+    return <section className="flex flex-col items-center justify-center gap-8 pl-16 pr-16 relative">
         <img className="w-[600px] h-auto"
          src="../public/images/illustration-intro.png" alt="hero-image" />
         <h2 className="text-white text-3xl font-bold">
@@ -10,7 +10,7 @@ const HeaderSection = () => {
             Access them wherever you need, share and collaborate with
             friends, family, and co-workers.
         </p>
-        <button className="bg-[hsl(198,60%,50%)] text-white font-bold pt-2 pb-2 pl-16 pr-16 rounded-full">
+        <button className="cursor-pointer bg-[hsl(198,60%,50%)] duration-200 ease-in-out hover:bg-[hsl(198,79%,67%)] text-white font-bold pt-2 pb-2 pl-16 pr-16 rounded-full">
             Get Started
         </button>
     </section>

@@ -1,5 +1,5 @@
 const HowFyloWorks = () => {
-    return <section className="text-white md:grid md:grid-cols-2">
+    return <section className="text-white md:grid md:grid-cols-2 pl-16 pr-16 relative">
         <div>
             <img className="w-[600px]" src="../public/images/illustration-stay-productive.png" alt="stay-productive-image" />
         </div>
