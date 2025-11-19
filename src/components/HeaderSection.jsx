@@ -1,5 +1,5 @@
 const HeaderSection = () => {
-    return <header className="flex items-center justify-between p-4">
+    return <header className="flex items-center justify-between">
         <div>
             <img src="../public/images/logo.svg" alt="logo-image" />
         </div>

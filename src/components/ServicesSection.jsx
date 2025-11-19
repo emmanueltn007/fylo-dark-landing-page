@@ -1,8 +1,9 @@
 const ServicesSection = () => {
-    return <section className="text-center md:grid md:grid-cols-2">
+    return <section className="text-white text-center flex flex-col gap-16
+                                md:grid md:grid-cols-2 md:gap-8">
         <div className="flex flex-col items-center">
             <img className="w-16" src="../public/images/icon-access-anywhere.svg" alt="access-anywhere-icon" />
-            <h4>
+            <h4 className="font-bold">
                 Access your files anywhere
             </h4>
             <p>
@@ -12,7 +13,7 @@ const ServicesSection = () => {
         </div>
         <div className="flex flex-col items-center">
             <img className="w-12" src="../public/images/icon-security.svg" alt="security-icon" />
-            <h4>
+            <h4 className="font-bold">
                 Security you can trust
             </h4>
             <p>
@@ -22,7 +23,7 @@ const ServicesSection = () => {
         </div>
         <div className="flex flex-col items-center">
             <img className="w-16" src="../public/images/icon-collaboration.svg" alt="collaboration-icon" />
-            <h4>
+            <h4 className="font-bold">
                 Real-time collaboration
             </h4>
             <p>
@@ -32,7 +33,7 @@ const ServicesSection = () => {
         </div>
         <div className="flex flex-col items-center">
             <img className="w-19" src="../public/images/icon-any-file.svg" alt="any-file-icon" />
-            <h4>
+            <h4 className="font-bold">
                 Store any type of file
             </h4>
             <p>
