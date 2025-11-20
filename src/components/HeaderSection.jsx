@@ -1,4 +1,4 @@
-import logo from '../public/images/logo.svg'
+import logo from './images/logo.svg'
 
 const HeaderSection = () => {
     return <header className="flex items-center justify-between pl-8 pr-8 pt-12 md:pl-16 md:pt-16 md:pr-16 relative">
