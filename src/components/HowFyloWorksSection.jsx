@@ -19,7 +19,7 @@ const HowFyloWorks = () => {
                 <span className="inline-flex items-center border-b  gap-2 text-[hsl(176,68%,64%)] hover:text-white
                                 duration-150 ease-in-out ">
                     See how Fylo works 
-                    <img src="../public/images/icon-arrow.svg" alt='arrow-icon' className="stroke-current"  />
+                    <img src="/images/icon-arrow.svg" alt='arrow-icon' className="stroke-current"  />
                 </span>
             </a>
         </div>

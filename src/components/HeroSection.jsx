@@ -1,7 +1,7 @@
 const HeaderSection = () => {
     return <section className="flex flex-col items-center justify-center gap-8 pl-16 pr-16 relative">
         <img className="w-[600px] h-auto"
-         src="../public/images/illustration-intro.png" alt="hero-image" />
+         src="/images/illustration-intro.png" alt="hero-image" />
         <h2 className="text-white text-3xl font-bold">
             All your files in one secure location, accessible anywhere.
         </h2>

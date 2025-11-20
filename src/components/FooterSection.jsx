@@ -1,11 +1,11 @@
 const FooterSection = () => {
     return <footer className="flex flex-col gap-4 text-[hsl(0,0%,82%)] bg-[hsl(216,53%,9%)] pl-10 pr-10 pb-10 pt-60">
         <div>
-            <img src="../public/images/logo.svg" alt="logo-image" />
+            <img src="/images/logo.svg" alt="logo-image" />
         </div>
         <nav className="grid grid-cols-1 md:grid-cols-[1.5fr_1fr_1fr_1fr_1fr] gap-8">
             <div className="flex gap-2">
-                <img className="w-5 h-5" src="../public/images/icon-location.svg" alt="location-icon" />
+                <img className="w-5 h-5" src="/images/icon-location.svg" alt="location-icon" />
                 <p className="text-[14px]">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
                     doloremque sapiente maiores perferendis unde tempora maxime, ex 
@@ -15,13 +15,13 @@ const FooterSection = () => {
             </div>
             <div className="grid grid-rows-2 gap-4 text-[14px]">
                 <div className="flex gap-2">
-                    <img className="w-5 h-5" src="../public/images/icon-phone.svg" alt="phone-icon" />
+                    <img className="w-5 h-5" src="/images/icon-phone.svg" alt="phone-icon" />
                     <p>
                         +1-543-123-4567
                     </p>
                 </div>
                 <div className="flex gap-2">
-                    <img className="w-5 h-5" src="../public/images/icon-email.svg" alt="email-icon" />
+                    <img className="w-5 h-5" src="/images/icon-email.svg" alt="email-icon" />
                     <p>
                         example@fylo.com
                     </p>
@@ -54,13 +54,13 @@ const FooterSection = () => {
             </div>
             <div className="flex justify-center gap-8 md:gap-0 md:justify-between">
                 <a href="#">
-                    <img className="w-8 text-red-400" src="../public/images/icons8-facebook-50.png" alt="facebook-icon" />
+                    <img className="w-8 text-red-400" src="/images/icons8-facebook-50.png" alt="facebook-icon" />
                 </a>
                 <a href="#">
-                    <img className="w-8" src="../public/images/icons8-twitter-50.png" alt="twitter-icon" />
+                    <img className="w-8" src="/images/icons8-twitter-50.png" alt="twitter-icon" />
                 </a>
                 <a href="#">
-                    <img className="w-8" src="../public/images/icons8-instagram-50.png" alt="instagram-icon" />
+                    <img className="w-8" src="/images/icons8-instagram-50.png" alt="instagram-icon" />
                 </a>
             </div>
         </nav>

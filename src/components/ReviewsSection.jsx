@@ -6,7 +6,7 @@ const Reviews = () => {
                 switch our team has become a well-oiled collaboration machine
             </p>
             <div className="flex gap-2">
-                <img className="w-15 rounded-full" src="../public/images/profile-1.jpg" alt="" />
+                <img className="w-15 rounded-full" src="/images/profile-1.jpg" alt="" />
                 <div className="flex flex-col">
                     <span className="font-bold">
                         Satish Patel
@@ -25,7 +25,7 @@ const Reviews = () => {
                 switch our team has become a well-oiled collaboration machine
             </p>
             <div className="flex gap-2">
-                <img className="w-15 rounded-full" src="../public/images/profile-2.jpg" alt="" />
+                <img className="w-15 rounded-full" src="/images/profile-2.jpg" alt="" />
                 <div className="flex flex-col">
                      <span className="font-bold">
                         Bruce McKenzie
@@ -44,7 +44,7 @@ const Reviews = () => {
                 switch our team has become a well-oiled collaboration machine
             </p>
             <div className="flex gap-2">
-                <img className="w-15 rounded-full" src="../public/images/profile-3.jpg" alt="" />
+                <img className="w-15 rounded-full" src="/images/profile-3.jpg" alt="" />
                 <div className="flex flex-col">
                     <span className="font-bold"> 
                         Iva Boyd
