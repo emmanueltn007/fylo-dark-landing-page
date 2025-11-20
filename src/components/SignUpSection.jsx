@@ -9,7 +9,7 @@ const SignUpSection = () => {
                 If you have any questions, our team would be happy to help you.
             </p>
             <div className="flex flex-col gap-4 md:flex-row">
-                <input className="bg-white w-full pt-3 pb-3 pl-3 rounded-full cursor-pointer" type="email" placeholder="email@example.com" />
+                <input className="bg-white w-full pt-3 pb-3 pl-3 rounded-full cursor-pointer outline-none" type="email" placeholder="email@example.com" />
                 <button className="cursor-pointer bg-[hsl(198,60%,50%)] duration-200 ease-in-out hover:bg-[hsl(198,79%,67%)] text-white font-bold w-full pt-3 pb-3 rounded-full
                                     md:w-[40%]">
                     Get Started For Free

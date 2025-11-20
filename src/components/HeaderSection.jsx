@@ -1,7 +1,7 @@
 const HeaderSection = () => {
     return <header className="flex items-center justify-between pl-8 pr-8 pt-12 md:pl-16 md:pt-16 md:pr-16 relative">
         <div>
-            <img className="w-28" src="../public/images/logo.svg" alt="logo-image" />
+            <img className="w-28" src="/images/logo.svg" alt="logo-image" />
         </div>
         
         <nav>
