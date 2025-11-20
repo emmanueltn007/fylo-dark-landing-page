@@ -1,7 +1,7 @@
 const HowFyloWorks = () => {
     return <section className="text-white md:grid md:grid-cols-2 pl-16 pr-16 relative">
         <div>
-            <img className="w-[600px]" src="../public/images/illustration-stay-productive.png" alt="stay-productive-image" />
+            <img className="w-[600px]" src="/images/illustration-stay-productive.png" alt="stay-productive-image" />
         </div>
         <div className="flex flex-col gap-8">
             <h2 className="text-3xl font-bold">
